@@ -182,7 +182,7 @@ import {isPresent} from 'ionic-angular/util';
  *
  * @demo /docs/v2/demos/alert/
  */
-export class Alert extends ViewController {
+export class mcHousePopup extends ViewController {
 
   constructor(opts: AlertOptions = {}) {
     opts.inputs = opts.inputs || [];
@@ -297,7 +297,7 @@ export class Alert extends ViewController {
    * @param {object} opts Alert. See the table above
    */
   static create(opts: AlertOptions = {}) {
-    return new Alert(opts);
+    return new mcHousePopup(opts);
   }
 
 }
